@@ -120,12 +120,9 @@ public class TechJobs {
                 System.out.println("*****");
                 for (Map.Entry<String, String> id : someJobs.get(i).entrySet()) {
                     System.out.println(id.getKey() + ": " + id.getValue());
-
                 }
-                System.out.println("*****");
+            System.out.println("*****");
             }
         }
-
-        System.out.println("printJobs is not implemented yet");
     }
 }
