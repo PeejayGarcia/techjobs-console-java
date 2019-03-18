@@ -130,7 +130,7 @@ public class JobData {
 
         loadData();
 
-        
+        ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
     }
 
 }
