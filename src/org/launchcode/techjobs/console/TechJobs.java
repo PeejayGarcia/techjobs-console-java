@@ -115,9 +115,14 @@ public class TechJobs {
         if (someJobs.isEmpty()){
             System.out.println("Sorry, there is nothing to display.");
         } else {
-            for(int i = 0; )
+            for(int i = 0; i < someJobs.size(); i++) {
+                System.out.println("*****");
+                for (Map.Entry<String, String> id : someJobs.get(i).entrySet()) {
+                    System.out.println(id.getKey() + ": " + id.getValue());
 
-
+                }
+                System.out.println("*****");
+            }
         }
 
         System.out.println("printJobs is not implemented yet");
